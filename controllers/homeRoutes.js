@@ -1,5 +1,6 @@
 //These are all the view routes for your application
 const router = require('express').Router();
+const { Post, Comment, User } = require("../models") 
 
 //when a GET request is received on the root(/) route,
 //render the home.handlebars view
